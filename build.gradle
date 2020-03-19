@@ -39,4 +39,10 @@ allprojects {
     group = 'com.google.android.exoplayer'
 }
 
+
+android {
+    sourceCompatibility 1.8
+    targetCompatibility 1.8
+}
+
 apply from: 'javadoc_combined.gradle'
